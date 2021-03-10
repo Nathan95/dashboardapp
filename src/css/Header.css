@@ -1,0 +1,86 @@
+.title {
+  margin-bottom: 2rem;
+}
+
+.title h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+  margin: 0;
+}
+
+.title span {
+  color: gold;
+}
+
+.scoreHeader {
+  border-radius: 10px;
+  border: 1px solid #000;
+  height: 10rem;
+  padding: 2rem 2rem 4rem 2rem;
+  background: #884dff;
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+
+.scoreHeader h2 {
+  text-align: left;
+  margin: 0;
+  font-weight: 600;
+  color: white;
+}
+
+.innerContainer {
+  display: flex;
+  text-align: left;
+}
+
+.innerContainerItem {
+  display: flex;
+  flex: 1;
+}
+
+.item {
+  margin-top: 1rem;
+  width: 9rem;
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 120px;
+  margin-right: 2rem;
+  position: relative;
+}
+
+.item img {
+  height: 100%;
+  width: 100%;
+}
+
+.hoveringScore {
+  width: 2rem;
+  border-radius: 5px;
+  background: white;
+  padding: 0.5rem;
+  color: mediumseagreen;
+  position: absolute;
+  left: 50px;
+  top: 70px;
+}
+
+.scoreCarrierName {
+  width: 8rem;
+  border-radius: 5px;
+  color: white;
+  position: absolute;
+  font-weight: 400;
+  left: 15px;
+  right: 0;
+  z-index: 1;
+  top: 130px;
+}
+
+.imageContainer {
+  margin-top: -40px;
+}
+
+.imageContainer img {
+  height: 300px;
+}

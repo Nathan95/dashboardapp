@@ -1,0 +1,56 @@
+.tableContainer {
+}
+
+.headingContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.tableItem {
+  /* margin-right: 3rem; */
+  width: 7rem;
+  text-align: left;
+  vertical-align: baseline;
+  margin-bottom: 2rem;
+}
+
+.tableItem:nth-child(5) {
+  flex: 1;
+}
+
+.tableItem:nth-child(6),
+.tableItem:nth-child(7) {
+  text-align: right;
+}
+
+.rowContainer {
+  display: flex;
+}
+
+.tableHeading {
+  font-weight: 600;
+}
+
+.tableItemText {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.name {
+  font-size: 16px;
+  font-weight: 400;
+  vertical-align: baseline;
+}
+
+.score {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.pen {
+  border: none;
+  background: none;
+  font-size: 25px;
+  cursor: pointer;
+}
